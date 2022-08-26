@@ -1,0 +1,64 @@
+.content {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    height: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.navigation {
+    float: left;
+    margin-left: auto;
+}
+
+h1 {
+  position: relative;
+  line-height: 1.2em;
+}
+h1:before {
+  position: absolute;
+  top: 1.2em;
+  width: 70px;
+  content: '';
+  border-top: 1px solid #D8B281;
+}
+
+.image {
+    width: 30%;
+}
+
+.image img {
+    height: 100%;
+}
+
+.container-1 {
+    background-color: black;
+    width: 70%;
+}
+
+.description {
+    position: relative;
+    top: 40%;
+    margin-left: 6rem;
+    margin-right: 6rem;
+}
+
+.description button {
+    margin-top: 1rem;
+}
+
+.description a {
+    text-decoration: underline;
+    color: #D8B281;
+}
+
+.social {
+    margin-top: 3.5rem;
+    height: 100px;
+}
+
+.icone {
+    color: white;
+    margin-right: 1.5rem;
+}
