@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { NavbarService } from '../services/navbar.service';
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
@@ -6,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
   showBurgerMenu: boolean;
-  constructor() {}
+  constructor(public nav: NavbarService) {}
 
   ngOnInit(): void {}
 }

@@ -5,6 +5,7 @@ import {
   faInstagram,
   faLinkedin,
 } from '@fortawesome/free-brands-svg-icons';
+import { NavbarService } from '../services/navbar.service';
 
 @Component({
   selector: 'app-home',
@@ -16,8 +17,10 @@ export class HomeComponent implements OnInit {
   faGithub = faGithub;
   faInstagram = faInstagram;
   faLinkedin = faLinkedin;
+  content = false;
+  constructor(public nav: NavbarService) {}
 
-  constructor() {}
-
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    this.nav.hide();
+  }
 }

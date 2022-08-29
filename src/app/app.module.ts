@@ -8,6 +8,8 @@ import { ExpertiseComponent } from './expertise/expertise.component';
 import { HomeComponent } from './home/home.component';
 import { HeaderComponent } from './header/header.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { AppRoutingModule } from './app-routing.module';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,7 +20,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     HomeComponent,
     HeaderComponent,
   ],
-  imports: [BrowserModule, FontAwesomeModule],
+  imports: [BrowserModule, FontAwesomeModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],
 })
