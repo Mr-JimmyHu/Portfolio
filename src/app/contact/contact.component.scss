@@ -1,3 +1,24 @@
-.content {
-    margin: 36px;
+.box {
+    background-color: #192734;
+    color: white;
+}
+
+.social {
+    a {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-right: 1rem;
+    }
+}
+
+.box {
+    height: 110px;
+}
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #D8B281;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 1.5px;
 }
