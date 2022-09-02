@@ -1,7 +1,20 @@
-.navigation {
-    margin: 48px
+.navbar-item {
+    margin-right: 24px;
+    &:hover {
+        color: #D8B281 !important; 
+        background-color: black;
+    }
+    color: white;
 }
 
-.navbar-item {
-    margin-right: 24px
+.active {
+    color: #D8B281 !important;
+    text-decoration: underline;
+    text-decoration-color: #D8B281;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 2px;
+}
+
+.navbar-menu {
+    background-color: black;
 }

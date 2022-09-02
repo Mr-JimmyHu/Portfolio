@@ -1,4 +1,4 @@
-<div class="navigation" *ngIf="nav.visible" data-aos="fade-up" data-aos-duration="2000">
+<div class="m-6" *ngIf="nav.visible" data-aos="fade-up" data-aos-duration="2000">
     <nav class="navbar is-black is-size-5" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
             <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="options"
@@ -10,16 +10,16 @@
         </div>
         <div id="options" class="navbar-menu" [class.is-active]="showBurgerMenu">
             <div class="navbar-end">
-                <a class="navbar-item" routerLink="/">
+                <a class="navbar-item" [ngClass]="{'active': url==='' }" routerLink="/">
                     Home
                 </a>
-                <a class="navbar-item" routerLink="/about">
+                <a class="navbar-item" [ngClass]="{'active': url==='about'}" routerLink="/about">
                     About
                 </a>
-                <a class="navbar-item" routerLink="/expertise">
+                <a class="navbar-item" [ngClass]="{'active': url==='expertise'}" routerLink="/expertise">
                     Expertise
                 </a>
-                <a class="navbar-item" routerLink="/contact">
+                <a class="navbar-item" [ngClass]="{'active': url==='contact'}" routerLink="/contact">
                     Contact
                 </a>
             </div>
