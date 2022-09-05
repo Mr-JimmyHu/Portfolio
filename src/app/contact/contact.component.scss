@@ -1,12 +1,13 @@
 .box {
     background-color: #192734;
     color: white;
+    min-height: 120px;
+    min-width: 210px;
 }
 
 a {
     text-decoration: underline;
     color: white;
-    margin-top: 12px;
     &:hover {
         color: #0072b2
 
@@ -17,12 +18,8 @@ a {
     a {
         margin-right: 1rem;
     }
-    width: 200px;
 }
 
-.box {
-    min-height: 120px;
-}
 
 h2 {
     text-align: center;

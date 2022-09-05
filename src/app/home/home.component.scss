@@ -13,7 +13,6 @@ h1 {
 .description {
     position: relative;
     top: 40%;
-
     a {
         text-decoration: underline;
         color: #D8B281;
@@ -28,11 +27,12 @@ h1 {
 }
 
 .icone {
+    color: white;
     &:hover {
       color: #0072b2;
     }
 }
 
-.icone {
-    color: white;
+.image img {
+    min-height: 950px;
 }
