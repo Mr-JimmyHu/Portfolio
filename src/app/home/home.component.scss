@@ -10,10 +10,6 @@ h1 {
   }
 }
 
-img {
-    height: 100%;
-}
-
 .description {
     position: relative;
     top: 40%;
@@ -28,6 +24,12 @@ img {
     height: 100px;
     a {
         margin-right: 1rem;
+    }
+}
+
+.icone {
+    &:hover {
+      color: #0072b2;
     }
 }
 

@@ -3,6 +3,16 @@
     color: white;
 }
 
+a {
+    text-decoration: underline;
+    color: white;
+    margin-top: 12px;
+    &:hover {
+        color: #0072b2
+
+    }
+}
+
 .social {
     a {
         margin-right: 1rem;
@@ -11,7 +21,7 @@
 }
 
 .box {
-    height: 110px;
+    min-height: 120px;
 }
 
 h2 {

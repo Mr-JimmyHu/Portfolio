@@ -5,3 +5,16 @@ h2 {
     text-underline-offset: 5px;
     text-decoration-thickness: 1.5px;
 }
+
+.quote {
+    font-size: 50px;
+    color: silver;
+    
+    span {
+        font-size: 25px;
+    }
+}
+
+.about {
+    line-height: 1.75;
+}
