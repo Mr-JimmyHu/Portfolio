@@ -4,6 +4,9 @@
         color: #F2AA4CFF !important; 
         background-color: black;
     }
+    &:focus {
+        background-color: black;
+    }
     color: white;
 }
 
