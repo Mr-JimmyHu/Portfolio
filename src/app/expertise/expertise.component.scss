@@ -7,37 +7,21 @@ h2 {
     color: white;
     text-align: center;
     font-weight: bold;
-    margin-right: 135px;
+
     text-decoration: underline;
     text-decoration-color: #F2AA4CFF;
     text-underline-offset: 5px;
     text-decoration-thickness: 1.5px;
 }
 
-@media only screen and (max-width: 1407px) {
-  h2 {
-      margin-right: 105px;
-  }
-}
-
-@media only screen and (max-width: 1215px) {
-  h2 {
-      margin-right: 75px;
-  }
-}
-
 @media only screen and (max-width: 768px) {
   .skills > div > div {
       display: flex;
       margin: 3rem;
+      flex-wrap: wrap;
   }
 
   p {
-    font-size: 1.125rem;
-  }
-
-  h2 {
-    margin-left: auto;
-    margin-right: auto;
+    font-size: 1rem;
   }
 }
