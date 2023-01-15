@@ -1,27 +1,22 @@
-# Portfolio
+# Portfolio 📚
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.3.
 
-## Development server
+My Personal Portfolio <a href="https://www.hujimmy.com/" target="_blank">hujimmy.com</a> built with Angular and hosted with Netlify
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+### Website Preview
+![Screen Shot 2022-09-07 at 10 54 27 PM](https://user-images.githubusercontent.com/47468433/189024245-3b7c67c2-c474-40ae-8e3d-cbf71fbcaed7.png)
 
-## Code scaffolding
+## Tech Stack 
+- Angular
+- Bulma
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Build status 🛠️
+[![Netlify Status](https://api.netlify.com/api/v1/badges/fa2c914e-0c41-42ff-9f80-917e79c522c2/deploy-status)](https://app.netlify.com/sites/beamish-arithmetic-2f7cc4/deploys)
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Color Reference 🎨
+|  Color  |     Hex     |
+| ------- | ----------- |
+|  Black  |  `#000000`  |
+|  White  |  `#FFFFFF`  |
+|         | `#F2AA4CFF` |
