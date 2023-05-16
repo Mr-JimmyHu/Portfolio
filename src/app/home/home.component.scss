@@ -5,41 +5,41 @@ h1 {
     position: absolute;
     top: 1.2em;
     width: 70px;
-    content: '';
-    border-top: 1px solid #F2AA4CFF;
+    content: "";
+    border-top: 1px solid #f2aa4cff;
   }
 }
 
 .description {
-    position: relative;
-    top: 40%;
-    a {
-        text-decoration: underline;
-        color: #F2AA4CFF;
-    }
+  position: relative;
+  top: 40%;
+  a {
+    text-decoration: underline;
+    color: #f2aa4cff;
+  }
 }
 
 .social {
-    height: 100px;
-    a {
-        margin-right: 1rem;
-    }
+  height: 100px;
+  a {
+    margin-right: 1rem;
+  }
 }
 
 .icone {
-    color: white;
-    &:hover {
-      color: #0072b2;
-    }
+  color: white;
+  &:hover {
+    color: #0072b2;
+  }
 }
 
 img {
-    min-height: 100vh;
+  min-height: 100vh;
 }
 
 @media only screen and (max-width: 1215px) {
   .columns {
-      display: block;
-      flex-direction: column;
+    display: block;
+    flex-direction: column;
   }
 }
