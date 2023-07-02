@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { NavbarService } from '../services/navbar.service';
 import {
   faFacebook,
@@ -12,14 +12,12 @@ import {
   templateUrl: './contact.component.html',
   styleUrls: ['./contact.component.scss'],
 })
-export class ContactComponent implements OnInit {
+export class ContactComponent {
   faFacebook = faFacebook;
   faGithub = faGithub;
   faInstagram = faInstagram;
   faLinkedin = faLinkedin;
-  constructor(public nav: NavbarService) {}
-
-  ngOnInit(): void {
+  constructor(public nav: NavbarService) {
     this.nav.show();
   }
 }

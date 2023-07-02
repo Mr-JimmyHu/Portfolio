@@ -6,10 +6,8 @@ import { NavbarService } from '../services/navbar.service';
   templateUrl: './about.component.html',
   styleUrls: ['./about.component.scss'],
 })
-export class AboutComponent implements OnInit {
-  constructor(public nav: NavbarService) {}
-
-  ngOnInit(): void {
+export class AboutComponent {
+  constructor(public nav: NavbarService) {
     this.nav.show();
   }
 }

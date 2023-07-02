@@ -8,8 +8,12 @@ import { NavbarService } from './services/navbar.service';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent implements OnInit {
+  showNav: boolean;
   constructor(public nav: NavbarService) {}
   ngOnInit() {
     AOS.init();
+    this.nav.visible$.subscribe((data) => {
+      this.showNav = data;
+    });
   }
 }

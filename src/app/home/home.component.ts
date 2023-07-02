@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 import {
   faFacebook,
   faGithub,
@@ -12,15 +12,13 @@ import { NavbarService } from '../services/navbar.service';
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss'],
 })
-export class HomeComponent implements OnInit {
+export class HomeComponent {
   faFacebook = faFacebook;
   faGithub = faGithub;
   faInstagram = faInstagram;
   faLinkedin = faLinkedin;
   content = false;
-  constructor(public nav: NavbarService) {}
-
-  ngOnInit(): void {
+  constructor(public nav: NavbarService) {
     this.nav.hide();
   }
 }

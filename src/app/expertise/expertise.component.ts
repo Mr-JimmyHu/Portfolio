@@ -15,8 +15,10 @@ import {
   templateUrl: './expertise.component.html',
   styleUrls: ['./expertise.component.scss'],
 })
-export class ExpertiseComponent implements OnInit {
-  constructor(public nav: NavbarService) {}
+export class ExpertiseComponent {
+  constructor(public nav: NavbarService) {
+    this.nav.show();
+  }
   faJs = faJs;
   faHtml5 = faHtml5;
   faCss3 = faCss3;
@@ -25,8 +27,4 @@ export class ExpertiseComponent implements OnInit {
   faNode = faNode;
   faJava = faJava;
   faGit = faGit;
-
-  ngOnInit(): void {
-    this.nav.show();
-  }
 }

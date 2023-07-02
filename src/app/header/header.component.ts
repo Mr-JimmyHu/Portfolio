@@ -19,7 +19,6 @@ export class HeaderComponent implements OnInit {
     this.router.events.subscribe((e) => {
       if (e instanceof NavigationEnd) {
         this.url = e.url.substring(1);
-        console.log(this.url);
       }
     });
   }
