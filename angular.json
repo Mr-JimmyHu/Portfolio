@@ -27,7 +27,8 @@
               "src/favicon.ico",
               "src/assets",
               "src/assets/svg/*",
-              "src/web.config"
+              "src/web.config",
+              "src/_redirects"
             ],
             "styles": [
               "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
